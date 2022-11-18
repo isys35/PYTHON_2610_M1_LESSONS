@@ -4,4 +4,5 @@ from example4_2 import number as from_module_number
 
 number = 16
 
-print(from_module_number, number)
+if __name__ == "__main__":
+    print(from_module_number, number)

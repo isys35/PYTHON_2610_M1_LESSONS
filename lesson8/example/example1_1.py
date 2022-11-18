@@ -2,4 +2,4 @@ try:
     answer = 12 / 0
     print(answer)
 except:
-    print("An error occurred")
+    print("ОШИБКА: Деление на 0!")
