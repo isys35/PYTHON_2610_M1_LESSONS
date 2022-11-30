@@ -1,4 +1,8 @@
 def generator1(n):
+    """
+
+    :param n:
+    """
     for i in range(n):
         yield i ** 2
         yield i ** 3
@@ -6,6 +10,9 @@ def generator1(n):
 
 
 def infiniti_generator():
+    """
+
+    """
     a = 0
     while True:
         a += 1
