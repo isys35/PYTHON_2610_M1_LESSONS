@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-2610-m1-lessons"
+version = "0.1.0"
+description = ""
+authors = ["Dzmitry <isys35@mail.ru>"]
+readme = "README.md"
+packages = [{include = "python_2610_m1_lessons"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.2"
+openpyxl = "^3.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
