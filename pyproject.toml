@@ -16,6 +16,7 @@ beautifulsoup4 = "^4.11.1"
 lxml = "^4.9.2"
 psycopg2 = "^2.9.5"
 sqlalchemy = "^1.4.46"
+aiohttp = "^3.8.3"
 
 
 [build-system]
