@@ -17,6 +17,9 @@ lxml = "^4.9.2"
 psycopg2 = "^2.9.5"
 sqlalchemy = "^1.4.46"
 aiohttp = "^3.8.3"
+pytest = "^7.2.1"
+aiogram = "^2.24"
+router = "^0.1"
 
 
 [build-system]
