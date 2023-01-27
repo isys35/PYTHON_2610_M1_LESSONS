@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    background-image: url(images/background.jpg);
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 500px 250px;
+    background-repeat: no-repeat;
+    background-position: center center
+        /* background-repeat: no-repeat; */
+}
+
+main h2 {
+    color: blue;
+    text-align: center;
+}
+
+header {
+    background-color: burlywood;
+}
+
+nav {
+    padding: 20px;
+    background-color: blueviolet;
+    width: 300px;
+    border: 5px solid gray;
+}
+
+li {
+    font-weight: 600;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.selected {
+    color: red;
+    border-bottom: 4px solid black;
+}
