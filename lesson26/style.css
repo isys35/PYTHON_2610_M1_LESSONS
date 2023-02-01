@@ -43,3 +43,15 @@ li {
     color: red;
     border-bottom: 4px solid black;
 }
+
+.red {
+    color: red;
+}
+
+.super {
+    font-size: 40px;
+}
+
+/* .selected.red.super {
+    
+} */

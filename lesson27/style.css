@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(to right, #b993d6, #8ca6db);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: coral;
+}
+
+.logo p {
+    display: inline-block;
+}
+
+.logo:hover {
+    border: 2px solid black;
+}
+
+.psevdo p {
+    margin-bottom: 15px;
+}
+
+.psevdo p:last-child {
+    margin-bottom: 0;
+}
+
+.psevdo p:nth-child(even) {
+    color: white;
+    background-color: black;
+}
+
+ul {
+    padding: 20px;
+}
+
+.example_1 li {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+/* li::before {
+    content: "+";
+} */
+
+
+.example_1 li:hover::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 4px;
+    background-color: black;
+}
+
+.example_2 li {
+    margin-bottom: 20px;
+}
+
+.example_2 li::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(background.jpg);
+    background-size: contain;
+}
+
+/* .example_3 li::before {
+    content: url(background.jpg);
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+} */
+
+.example_3 li {
+    padding: 15px;
+    background-color: bisque;
+    border: 2px solid black;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    z-index: -1;
+}
+
+.absolute {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+.modal {
+    position: fixed;
+    background-color: rgb(214, 214, 102);
+    padding: 20px;
+    width: 300px;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal h2 {
+    text-align: center;
+    color: red;
+    margin-bottom: 15px;
+}
+
+form {
+    padding-bottom: 100px;
+}
+
+@media (max-width: 992px) {
+    body {
+        padding: 20px;
+    }
+}
